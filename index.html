@@ -1,0 +1,186 @@
+<!doctype html>
+
+	<html>
+	
+		<head><meta charset ="utf8">
+		
+			<title></title>
+			
+			<link rel="stylesheet" type="text/css" href="estilo.css">
+			<script type="text/javascript" src="script.js"></script>
+			
+		</head>
+		
+		<body style="background:#FF8C00;">
+		
+			<div class="container-fluid">
+				
+				<div class="row" style="height:60px;">
+				
+				<div class="col-xs-5"></div>
+				
+				<div class="col-xs-1">
+				
+					<img src="0.png" id="jd" class="pontuaçãoD"/>
+					
+					<img src="0.png" id="ju" class="pontuaçãoU"/>
+				
+				</div>
+				
+				<div class="col-xs-1">
+				
+					<img src="x.png" class="xpeq"/>
+				
+				</div>
+				
+				<div class="col-xs-1">
+				
+					<img src="0.png" id="md" class="pontuaçãoD"/>
+					
+					<img src="0.png" id="mu" class="pontuaçãoU"/>
+				
+				</div>
+				
+				<div class="col-xs-4"></div>
+				
+				</div>
+			
+				<div class="row" style="height:350px;">
+				
+					<div class="col-xs-1">
+					
+						<img src="seta.png" alt="setaesquerda" class="seta" onclick="mudaImagem(1)"  />
+					
+					</div>
+					
+					<div class="col-xs-3">
+					
+						<img src="pedra.png" id="jogada" class="jogada"/>
+				
+					</div>
+					
+					<div class="col-xs-1">
+					
+						<img src="setainversa.png" alt="setadireta" class="seta" onclick="mudaImagem(-1)"  />
+					
+					</div>
+					
+					<div class="col-xs-3">
+					
+					<img src="x.png" alt="x" class="x" />
+					
+					</div>
+					
+					<div class="col-xs-3">
+					
+						<img src="pedra.png" id="jogadamaquina" class="jogada"/>
+					
+					</div>
+				
+				</div>
+				
+				<div class="row">
+				
+					<div class="col-xs-2"></div>
+					
+					<div class="col-xs-1">
+					
+						<button type="button" onclick="start()"><h4>Start</h4></button>
+				
+					</div>
+
+					<div class="col-xs-2"></div>
+					
+					<div class="col-xs-3">
+
+						<b><p id="resposta" class="msg1"></p></b>
+
+					</div>
+					
+					<div class="col-xs-4">
+					
+						<div class="container-fluid">
+						
+							<div class="row div">
+							
+								<b><p>Regras de jogo para o jogador ganhar</p></b>
+							
+							</div>
+							
+							
+							<div class="row">
+							
+								<div class="col-xs-3 div"> 
+								
+									<b><p>Jogador</p></b>
+							
+								</div>
+							
+								<div class="col-xs-3 div"> 
+							
+									<b><p>Maquina</p></b>
+							
+								</div>
+							
+							</div>
+							
+							<div class="row">
+							
+								<div class="col-xs-3 div"> 
+							
+									<b><p>Pedra</p></b>
+							
+								</div>
+							
+								<div class="col-xs-3 div"> 
+							
+									<b><p>Tesoura</p></b>
+							
+								</div>
+							
+							</div>
+							
+							<div class="row">
+							
+								<div class="col-xs-3 div"> 
+							
+									<b><p>Papel</p></b>
+							
+								</div>
+							
+								<div class="col-xs-3 div"> 
+							
+									<b><p>Pedra</p></b>
+							
+								</div>
+							
+							</div>
+							
+							<div class="row">
+							
+								<div class="col-xs-3 div"> 
+							
+									<b><p>Tesoura</p></b>
+							
+								</div>
+							
+								<div class="col-xs-3 div"> 
+							
+									<b><p>Papel</p></b>
+							
+								</div>
+							
+							</div>
+						
+						
+						</div>
+					
+					</div>
+					
+				</div>
+			
+			</div>
+		
+		</body>
+		
+	</html>
